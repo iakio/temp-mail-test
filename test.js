@@ -20,6 +20,10 @@ const headers = {
   "Accept": "application/json",  
 }
 
+process.on('unhandledRejection', (e) => {
+  throw e;
+});
+
 axios.get('https://privatix-temp-mail-v1.p.mashape.com/request/domains/', {
   headers: headers
 })
