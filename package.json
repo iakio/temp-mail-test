@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "dotenv": "^4.0.0",
+    "nodemailer": "^4.0.1",
+    "uuid": "^3.1.0"
+  }
+}
