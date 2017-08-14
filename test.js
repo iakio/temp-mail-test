@@ -70,5 +70,5 @@ axios.get('https://privatix-temp-mail-v1.p.mashape.com/request/domains/', {
     }
   )})
   .catch((reason) => {
-    console.error(reason);
+    throw reason;
   });
